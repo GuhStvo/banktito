@@ -21,7 +21,7 @@ class Header extends StatelessWidget {
       ),
       child:Padding(
         padding: const EdgeInsets.fromLTRB(16.0, 80.0, 16.0, 16.0), // Coloca padding
-      )
+      ),
       child: Row( // Eixo horizontal
        mainAxisAlignment: MainAxisAlignment.spaceBetween, // Da um espaçamento entre os elementos da linha
        children: <Widget>[ // Abrindo um children com uma lista de Widget
@@ -46,7 +46,7 @@ class Header extends StatelessWidget {
         const Icon(
           Icons.account_circle,
           size: 42,
-        )
+        ),
        ],
       ),
     );
